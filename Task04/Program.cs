@@ -12,7 +12,7 @@ int d = Convert.ToInt32(Console.ReadLine());
 int max = 0;
 if (a > b && a > d) max = a;
 else 
-    if (b > d && b > a) max = b;
+    if (b > d) max = b;
     else max = d;
 
 Console.WriteLine($"большее число - {max}");

@@ -8,5 +8,5 @@ int i = 2;
 while (i <= number)
 {
     if (i % 2 == 0) Console.Write($"{i}, ");
-    i++;
+    i = i +2;
 }
