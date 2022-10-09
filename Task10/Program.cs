@@ -5,6 +5,7 @@
 // 456 -> 5
 // 782 -> 8
 // 918 -> 1
+// это решение находит вторую цифру любого числа, не только трёхзначного
 
 Console.WriteLine("Введите трёхзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
@@ -14,7 +15,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 // result = number / 10 % 10;
 // Console.WriteLine($"Вторая цифра введенного числа - {result}");
 
-// решение с методом
+// решение с методом 
 int secondDigit = SecondDigit(number);
 Console.WriteLine($"Вторая цифра введенного числа - {secondDigit}");
 
