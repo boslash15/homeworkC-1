@@ -14,13 +14,14 @@ int SumNumber(int num)
 {
     if (num < 0)
     {  
-      num = num * (-1);
+        num = num * (-1);
     }
+
     int sum = 0;
     while (num > 0)
-        {
-         sum = sum + num % 10;
-         num = num / 10;
-        }
-return sum;
+    {
+        sum = sum + num % 10;
+        num = num / 10;
+    }
+    return sum;
 }
