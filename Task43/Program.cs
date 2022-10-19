@@ -20,7 +20,7 @@ int k2 = Convert.ToInt32(Console.ReadLine());
 double[] IntersectionPoint(int b1, int b2, int k1, int k2)
 {
     double[] point = new double[2];
-    point[0] = Math.Round((b1 - b2) / (k2 - k1), 1);
+    point[0] = Math.Round((double) (b1 - b2) / (k2 - k1), 1);
     point[1] = Math.Round(k1 * point[0] + b1, 1);
     return point;
 }
