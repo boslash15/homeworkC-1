@@ -62,7 +62,7 @@ void PrintArray(double[] array)
     Console.WriteLine("]");
 }
 
-int[,] array2D = CreateMatrixRndInt(6, 2, 1, 100);
+int[,] array2D = CreateMatrixRndInt(3, 4, 1, 10);
 PrintMatrix(array2D);
 Console.WriteLine();
 PrintArray(AverageColumn(array2D));
