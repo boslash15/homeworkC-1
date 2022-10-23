@@ -45,7 +45,7 @@ void PrintMatrix(int[,] matrix)
 
 bool PositionSearch(int[,] matrix, int r, int c)
 {
-    if (r <= matrix.GetLength(0) && c <= matrix.GetLength(1)) return true;
+    if (r <= matrix.GetLength(0) && c <= matrix.GetLength(1) && r > 0 && c > 0) return true;
     return false;
 }
 
